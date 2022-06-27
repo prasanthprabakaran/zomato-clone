@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Header.css";
 import "../../../styles/CommonClasses.css";
-import "../../../styles/Variable.css";
 import {IoLocationSharp,IoCaretDownSharp,IoSearchOutline} from "react-icons/io5";
 
 const Header = () => {
