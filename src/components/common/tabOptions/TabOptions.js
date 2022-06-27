@@ -1,7 +1,5 @@
 import React from 'react'
 import "./TabOptions.css";
-import "../../../styles/CommonClasses.css";
-import "../../../styles/Variable.css";
 
 const tabs = [
   {
