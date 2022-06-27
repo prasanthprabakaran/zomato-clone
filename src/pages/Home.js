@@ -23,7 +23,7 @@ const getCorrectScreen = (value) => {
     switch(value) {
         case "Delivery":
              return <Delivery />;
-        case "DiningOut":
+        case "Dining Out":
             return <DiningOut />;
         case "Nightlife":
             return <NightLife />;
