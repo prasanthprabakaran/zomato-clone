@@ -20,3 +20,7 @@
 .slick-prev::before {
     color: var(--grey);
 }
+.slick-next::after,
+.slick-prev::after {
+    color: rgb(28, 28, 28);
+}

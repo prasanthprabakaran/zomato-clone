@@ -1,4 +1,5 @@
 import React from 'react';
+import DeliveryCollections from './deliveryCollections/DeliveryCollections';
 import Filters from "../common/filters/Filter";
 import { IoChevronDown } from 'react-icons/io5';
 import { BsSliders,BsArrowDownUp } from 'react-icons/bs';
@@ -44,6 +45,7 @@ const Delivery = () => {
       <div className='max-width'>
         <Filters filterList={deliveryFilters} />
       </div>
+      <DeliveryCollections />
     </div>
   );
 };
