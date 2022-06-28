@@ -3,6 +3,7 @@ import DeliveryCollections from './deliveryCollections/DeliveryCollections';
 import Filters from "../common/filters/Filter";
 import { IoChevronDown } from 'react-icons/io5';
 import { BsSliders,BsArrowDownUp } from 'react-icons/bs';
+import TopBrands from './topBrands/TopBrands';
 
 
 
@@ -46,6 +47,7 @@ const Delivery = () => {
         <Filters filterList={deliveryFilters} />
       </div>
       <DeliveryCollections />
+      <TopBrands/>
     </div>
   );
 };
