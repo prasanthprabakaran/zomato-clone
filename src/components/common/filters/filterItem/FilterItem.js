@@ -1,9 +1,13 @@
 import React from 'react'
+import './Filteritem.css';
 
-const filterItem = () => {
+const FilterItem = ({ filter }) => {
   return (
-    <div>filterItem</div>
+    <div className='filter-item'>
+      {filter.icon && filter.icon}
+      <div className='filter-name'>{filter.title}</div>
+    </div>
   )
-}
+};
 
-export default filterItem
+export default FilterItem;

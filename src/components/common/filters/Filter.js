@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import FilterItem from './filterItem/FilterItem';
+import './Filter.css';
 
-const Filter = () => {
+
+const Filter = ({ filterList }) => {
   return (
-    <div>Filter</div>
+    <div className='filters'>
+      {filterList && filterList.map((filter)=>{
+        return <FilterItem filter={filter} key={filter.id} />
+      })}
+    </div>
   )
-}
+};
 
-export default Filter
+export default Filter;
