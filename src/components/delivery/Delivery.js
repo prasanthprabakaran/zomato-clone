@@ -4,6 +4,8 @@ import Filters from "../common/filters/Filter";
 import { IoChevronDown } from 'react-icons/io5';
 import { BsSliders,BsArrowDownUp } from 'react-icons/bs';
 import TopBrands from './topBrands/TopBrands';
+import ExploreSection from '../common/exploreSection/ExploreSection';
+import { Restaurants } from '../../data/Restaurants';
 
 
 
@@ -38,7 +40,7 @@ const deliveryFilters = [
   }
 ];
 
-// const restaurantList = restaurants;
+const restaurantList = Restaurants;
 
 const Delivery = () => {
   return (
@@ -48,6 +50,10 @@ const Delivery = () => {
       </div>
       <DeliveryCollections />
       <TopBrands/>
+      <ExploreSection 
+      restaurants = {restaurantList}
+      collectionName="Delivery Restaurants in Anna Nagar, Chennai, India"
+      />
     </div>
   );
 };
