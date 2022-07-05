@@ -7,6 +7,7 @@ import Delivery from '../components/delivery/Delivery';
 import DiningOut from '../components/diningOut/DiningOut';
 
 
+
 const Home = () => {
     const [activeTab, setActiveTab] = useState("Delivery");
   return (

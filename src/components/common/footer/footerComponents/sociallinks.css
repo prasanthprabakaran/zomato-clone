@@ -1,0 +1,41 @@
+.icons{
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.app-store{
+    position: relative;
+    max-width: 100%;
+    width: 137px;
+    height: 40px;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+.play-store{
+    position: relative;
+    max-width: 100%;
+    width: 137px;
+    height: 40px;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    
+}
+.separator{
+    height: 15px;
+}

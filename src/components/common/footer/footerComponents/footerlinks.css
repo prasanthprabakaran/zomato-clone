@@ -1,0 +1,25 @@
+.heading{
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 0px 1.2rem;
+}
+.para{
+    font-size: 14px;
+    /* line-height: 2.1rem; */
+    color: rgb(105, 105, 105);
+    margin: 0.5rem 0px;
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    cursor: pointer;
+}
+.about-links{
+    display: flex;
+}
+.options{
+    margin-right: 79px;
+}

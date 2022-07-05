@@ -1,12 +1,14 @@
 .footer-wrapper {
     padding: 0px 1.5rem;
     width: 100%;
-    background: rgb(248, 248, 248);
+    background: var(--secondary-bg);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .footer {
-    max-width: 110rem;
-    width: 110rem;
+    width: 1100px;
     padding: 4.8rem 0px 2.2rem;
     position: relative;
 }
@@ -17,6 +19,11 @@
     justify-content: space-between;
     margin-bottom: 4rem;
 }
+.footer-logo {
+    height: 27px;
+    max-width: 140px;
+    margin-right: 24px;
+}
 .links-section{
     width: 100%;
     position: relative;
@@ -24,4 +31,24 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+}
+.footer-regional{
+    display: flex;
+}
+.button-separator{
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+}
+.button-style{
+    min-width: 10rem;
+    width: max-content;
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 0.6rem;
+}
+.button{
+    cursor: pointer;
 }
