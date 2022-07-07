@@ -3,29 +3,27 @@ import { nightLife } from '../../data/nightLife'
 import Collection from '../common/collection/Collection'
 import ExploreSection from '../common/exploreSection/ExploreSection'
 import Filter from '../common/filters/Filter'
-import './Nightlife.css'
+import { BsSliders, BsArrowDownUp } from "react-icons/bs";
 
 
 const nightLifeList = nightLife;
 const nightFilters = [
   {
     id:1,
+    icon: <i className='absolute-center'><BsSliders/></i>,
     title: "Filters"
   },
   {
     id:2,
-    title: "Pro Offers"
-  },
-  {
-    id:3,
+    icon: <i className='absolute-center'><BsArrowDownUp/></i>,
     title: "Distance"
   },
   {
-    id:4,
+    id:3,
     title: "Rating: 4.0+"
   },
   {
-    id:5,
+    id:4,
     title: "Pubs & Bars"
   },
 ];
@@ -79,8 +77,10 @@ const NightLife = () => {
   return (
     <div>\
       <Collection list={collectionList} />
-      <div className='max-width'>
+      <div className='filter-wrapper'>
+      <div className='filter-section'>
         <Filter filterList={nightFilters} />
+      </div>
       </div>
       <ExploreSection 
         restaurants={nightLifeList}

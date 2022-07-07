@@ -7,6 +7,18 @@
     max-width: 1100px;
     margin: 0px auto;
 }
+.filter-wrapper {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+}
+.filter-section {
+    position: relative;
+    margin: 0px auto;
+    max-width: 1100px;
+    max-height: initial;
+}
 .cur-po {
     cursor: pointer;
 }

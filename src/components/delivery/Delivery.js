@@ -6,7 +6,6 @@ import { BsSliders,BsArrowDownUp } from 'react-icons/bs';
 import TopBrands from './topBrands/TopBrands';
 import ExploreSection from '../common/exploreSection/ExploreSection';
 import { Restaurants } from '../../data/Restaurants';
-import './Delivery.css';
 
 
 
