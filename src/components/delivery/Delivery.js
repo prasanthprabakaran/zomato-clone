@@ -6,6 +6,7 @@ import { BsSliders,BsArrowDownUp } from 'react-icons/bs';
 import TopBrands from './topBrands/TopBrands';
 import ExploreSection from '../common/exploreSection/ExploreSection';
 import { Restaurants } from '../../data/Restaurants';
+import './Delivery.css';
 
 
 
@@ -45,8 +46,10 @@ const restaurantList = Restaurants;
 const Delivery = () => {
   return (
     <div>
-      <div className='max-width'>
+      <div className=' filter-wrapper'>
+        <div className='filter-section'>
         <Filters filterList={deliveryFilters} />
+        </div>        
       </div>
       <DeliveryCollections />
       <TopBrands/>
